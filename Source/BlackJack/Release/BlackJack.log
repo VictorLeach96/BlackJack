@@ -1,0 +1,53 @@
+﻿Build started 19/11/2015 13:46:43.
+     1>Project "H:\Assignments\AI_1\BlackJack\BlackJack\BlackJack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Card.cpp CardHolder.cpp Dealer.cpp DealerWinState.cpp DealState.cpp EndedState.cpp GameController.cpp Hand.cpp HitState.cpp main.cpp IdleState.cpp Player.cpp PlayerWinState.cpp Screen.cpp StandState.cpp StartState.cpp
+         Card.cpp
+         CardHolder.cpp
+     1>CardHolder.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>CardHolder.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+         Dealer.cpp
+     1>Dealer.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+         DealerWinState.cpp
+         DealState.cpp
+         EndedState.cpp
+         GameController.cpp
+         Hand.cpp
+         HitState.cpp
+         main.cpp
+     1>main.cpp(6): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         IdleState.cpp
+         Player.cpp
+         PlayerWinState.cpp
+         Screen.cpp
+     1>Screen.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+     1>Screen.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>Screen.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+     1>Screen.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+         StandState.cpp
+         StartState.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Assignments\AI_1\BlackJack\Release\BlackJack.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Assignments\AI_1\BlackJack\Release\BlackJack.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Assignments\AI_1\BlackJack\Release\BlackJack.lib" /MACHINE:X86 /SAFESEH Release\Card.obj
+         Release\CardHolder.obj
+         Release\Dealer.obj
+         Release\DealerWinState.obj
+         Release\DealState.obj
+         Release\EndedState.obj
+         Release\GameController.obj
+         Release\Hand.obj
+         Release\HitState.obj
+         Release\main.obj
+         Release\IdleState.obj
+         Release\Player.obj
+         Release\PlayerWinState.obj
+         Release\Screen.obj
+         Release\StandState.obj
+         Release\StartState.obj
+         Generating code
+         Finished generating code
+         BlackJack.vcxproj -> H:\Assignments\AI_1\BlackJack\Release\BlackJack.exe
+     1>Done Building Project "H:\Assignments\AI_1\BlackJack\BlackJack\BlackJack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.48

@@ -1,0 +1,28 @@
+﻿Build started 19/11/2015 18:30:03.
+     1>Project "H:\Assignments\AI_1\BlackJack\BlackJack\BlackJack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameController.cpp
+         GameController.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Assignments\AI_1\BlackJack\Debug\BlackJack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Assignments\AI_1\BlackJack\Debug\BlackJack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Assignments\AI_1\BlackJack\Debug\BlackJack.lib" /MACHINE:X86 Debug\Card.obj
+         Debug\CardHolder.obj
+         Debug\Dealer.obj
+         Debug\DealerWinState.obj
+         Debug\DealState.obj
+         Debug\EndedState.obj
+         Debug\GameController.obj
+         Debug\Hand.obj
+         Debug\HitState.obj
+         Debug\main.obj
+         Debug\IdleState.obj
+         Debug\Player.obj
+         Debug\PlayerWinState.obj
+         Debug\Screen.obj
+         Debug\StandState.obj
+         Debug\StartState.obj
+         BlackJack.vcxproj -> H:\Assignments\AI_1\BlackJack\Debug\BlackJack.exe
+     1>Done Building Project "H:\Assignments\AI_1\BlackJack\BlackJack\BlackJack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.06
